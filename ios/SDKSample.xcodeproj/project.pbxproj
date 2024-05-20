@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180914B12BF7854A0013A232 /* Kotlin_DefaultArgsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180914AF2BF7854A0013A232 /* Kotlin_DefaultArgsView.swift */; };
+		18B0EE982BEBEC2A00852B87 /* Kotlin_SealedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EE972BEBEC2A00852B87 /* Kotlin_SealedView.swift */; };
+		18B0EE9A2BEBEC4600852B87 /* Kotlin_EnumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EE992BEBEC4600852B87 /* Kotlin_EnumsView.swift */; };
+		18B0EEA02BEBEC5C00852B87 /* Kotlin_FlowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EE9F2BEBEC5C00852B87 /* Kotlin_FlowsView.swift */; };
+		18B0EEA22BEBEC6900852B87 /* Kotlin_SuspendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEA12BEBEC6900852B87 /* Kotlin_SuspendsView.swift */; };
+		18B0EECF2BF26DC800852B87 /* SKIE_DefaultArgsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EE9B2BEBEC4E00852B87 /* SKIE_DefaultArgsView.swift */; };
+		18B0EED22BF26DC800852B87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F19862BD817DB0016E0E4 /* ContentView.swift */; };
+		18B0EED42BF26DC800852B87 /* SDKSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F19842BD817DB0016E0E4 /* SDKSampleApp.swift */; };
+		18B0EED52BF26DC800852B87 /* SKIE_GenericsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EE9D2BEBEC5500852B87 /* SKIE_GenericsView.swift */; };
+		18B0EED82BF26DC800852B87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950F198B2BD817DC0016E0E4 /* Preview Assets.xcassets */; };
+		18B0EED92BF26DC800852B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950F19882BD817DC0016E0E4 /* Assets.xcassets */; };
+		18B0EEE22BF26E3600852B87 /* SKIE_SealedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEE02BF26E1700852B87 /* SKIE_SealedView.swift */; };
+		18B0EEE62BF26F8B00852B87 /* SKIE_FlowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEE42BF26F8B00852B87 /* SKIE_FlowsView.swift */; };
+		18B0EEE92BF26FF300852B87 /* SKIE_EnumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEE82BF26FF300852B87 /* SKIE_EnumsView.swift */; };
+		18B0EEEE2BF270CA00852B87 /* SKIE_SuspendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEEC2BF270CA00852B87 /* SKIE_SuspendsView.swift */; };
+		18B0EEF22BF2850600852B87 /* withCleanup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEF12BF2850600852B87 /* withCleanup.swift */; };
+		18B0EEF32BF2850800852B87 /* withCleanup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEF12BF2850600852B87 /* withCleanup.swift */; };
+		18B0EEF52BF3ED9F00852B87 /* Kotlin_GenericsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEF42BF3ED9F00852B87 /* Kotlin_GenericsView.swift */; };
+		18EAFA1F2BFB8DCA008038BC /* Sendables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAFA1E2BFB8DCA008038BC /* Sendables.swift */; };
+		18EAFA202BFB8DCA008038BC /* Sendables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAFA1E2BFB8DCA008038BC /* Sendables.swift */; };
+		950F19852BD817DB0016E0E4 /* SDKSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F19842BD817DB0016E0E4 /* SDKSampleApp.swift */; };
+		950F19872BD817DB0016E0E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F19862BD817DB0016E0E4 /* ContentView.swift */; };
+		950F19892BD817DC0016E0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950F19882BD817DC0016E0E4 /* Assets.xcassets */; };
+		950F198C2BD817DC0016E0E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950F198B2BD817DC0016E0E4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180914AF2BF7854A0013A232 /* Kotlin_DefaultArgsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotlin_DefaultArgsView.swift; sourceTree = "<group>"; };
+		18B0EE972BEBEC2A00852B87 /* Kotlin_SealedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotlin_SealedView.swift; sourceTree = "<group>"; };
+		18B0EE992BEBEC4600852B87 /* Kotlin_EnumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotlin_EnumsView.swift; sourceTree = "<group>"; };
+		18B0EE9B2BEBEC4E00852B87 /* SKIE_DefaultArgsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIE_DefaultArgsView.swift; sourceTree = "<group>"; };
+		18B0EE9D2BEBEC5500852B87 /* SKIE_GenericsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIE_GenericsView.swift; sourceTree = "<group>"; };
+		18B0EE9F2BEBEC5C00852B87 /* Kotlin_FlowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotlin_FlowsView.swift; sourceTree = "<group>"; };
+		18B0EEA12BEBEC6900852B87 /* Kotlin_SuspendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotlin_SuspendsView.swift; sourceTree = "<group>"; };
+		18B0EEDD2BF26DC800852B87 /* SKIESample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKIESample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B0EEE02BF26E1700852B87 /* SKIE_SealedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIE_SealedView.swift; sourceTree = "<group>"; };
+		18B0EEE42BF26F8B00852B87 /* SKIE_FlowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIE_FlowsView.swift; sourceTree = "<group>"; };
+		18B0EEE82BF26FF300852B87 /* SKIE_EnumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIE_EnumsView.swift; sourceTree = "<group>"; };
+		18B0EEEC2BF270CA00852B87 /* SKIE_SuspendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKIE_SuspendsView.swift; sourceTree = "<group>"; };
+		18B0EEF12BF2850600852B87 /* withCleanup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withCleanup.swift; sourceTree = "<group>"; };
+		18B0EEF42BF3ED9F00852B87 /* Kotlin_GenericsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotlin_GenericsView.swift; sourceTree = "<group>"; };
+		18EAFA1E2BFB8DCA008038BC /* Sendables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sendables.swift; sourceTree = "<group>"; };
+		950F19812BD817DB0016E0E4 /* KotlinSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		950F19842BD817DB0016E0E4 /* SDKSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKSampleApp.swift; sourceTree = "<group>"; };
+		950F19862BD817DB0016E0E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		950F19882BD817DC0016E0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		950F198B2BD817DC0016E0E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B0EED62BF26DC800852B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950F197E2BD817DB0016E0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B0EEDE2BF26DDD00852B87 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				950F19842BD817DB0016E0E4 /* SDKSampleApp.swift */,
+				950F19862BD817DB0016E0E4 /* ContentView.swift */,
+				18B0EEF12BF2850600852B87 /* withCleanup.swift */,
+				950F19882BD817DC0016E0E4 /* Assets.xcassets */,
+				950F198A2BD817DC0016E0E4 /* Preview Content */,
+				18EAFA1E2BFB8DCA008038BC /* Sendables.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		18B0EEDF2BF26E0600852B87 /* Sealed */ = {
+			isa = PBXGroup;
+			children = (
+				18B0EE972BEBEC2A00852B87 /* Kotlin_SealedView.swift */,
+				18B0EEE02BF26E1700852B87 /* SKIE_SealedView.swift */,
+			);
+			path = Sealed;
+			sourceTree = "<group>";
+		};
+		18B0EEE32BF26F7400852B87 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				18B0EE9F2BEBEC5C00852B87 /* Kotlin_FlowsView.swift */,
+				18B0EEE42BF26F8B00852B87 /* SKIE_FlowsView.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		18B0EEE72BF26FE300852B87 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				18B0EE992BEBEC4600852B87 /* Kotlin_EnumsView.swift */,
+				18B0EEE82BF26FF300852B87 /* SKIE_EnumsView.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		18B0EEEB2BF270C100852B87 /* Suspends */ = {
+			isa = PBXGroup;
+			children = (
+				18B0EEA12BEBEC6900852B87 /* Kotlin_SuspendsView.swift */,
+				18B0EEEC2BF270CA00852B87 /* SKIE_SuspendsView.swift */,
+			);
+			path = Suspends;
+			sourceTree = "<group>";
+		};
+		18B0EEEF2BF2711C00852B87 /* DefaultArgs */ = {
+			isa = PBXGroup;
+			children = (
+				180914AF2BF7854A0013A232 /* Kotlin_DefaultArgsView.swift */,
+				18B0EE9B2BEBEC4E00852B87 /* SKIE_DefaultArgsView.swift */,
+			);
+			path = DefaultArgs;
+			sourceTree = "<group>";
+		};
+		18B0EEF02BF2712D00852B87 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				18B0EEF42BF3ED9F00852B87 /* Kotlin_GenericsView.swift */,
+				18B0EE9D2BEBEC5500852B87 /* SKIE_GenericsView.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		950F19782BD817DB0016E0E4 = {
+			isa = PBXGroup;
+			children = (
+				18B0EEE72BF26FE300852B87 /* Enums */,
+				18B0EEDF2BF26E0600852B87 /* Sealed */,
+				18B0EEEB2BF270C100852B87 /* Suspends */,
+				18B0EEE32BF26F7400852B87 /* Flows */,
+				18B0EEEF2BF2711C00852B87 /* DefaultArgs */,
+				18B0EEF02BF2712D00852B87 /* Generics */,
+				18B0EEDE2BF26DDD00852B87 /* Util */,
+				950F19822BD817DB0016E0E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		950F19822BD817DB0016E0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				950F19812BD817DB0016E0E4 /* KotlinSample.app */,
+				18B0EEDD2BF26DC800852B87 /* SKIESample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		950F198A2BD817DC0016E0E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				950F198B2BD817DC0016E0E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B0EECB2BF26DC800852B87 /* SKIESample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B0EEDA2BF26DC800852B87 /* Build configuration list for PBXNativeTarget "SKIESample" */;
+			buildPhases = (
+				18B0EECC2BF26DC800852B87 /* Embed Kotlin Framework */,
+				18B0EECD2BF26DC800852B87 /* Sources */,
+				18B0EED62BF26DC800852B87 /* Frameworks */,
+				18B0EED72BF26DC800852B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKIESample;
+			productName = SDKSample;
+			productReference = 18B0EEDD2BF26DC800852B87 /* SKIESample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		950F19802BD817DB0016E0E4 /* KotlinSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950F198F2BD817DC0016E0E4 /* Build configuration list for PBXNativeTarget "KotlinSample" */;
+			buildPhases = (
+				950F19922BD818690016E0E4 /* Embed Kotlin Framework */,
+				950F197D2BD817DB0016E0E4 /* Sources */,
+				950F197E2BD817DB0016E0E4 /* Frameworks */,
+				950F197F2BD817DB0016E0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinSample;
+			productName = SDKSample;
+			productReference = 950F19812BD817DB0016E0E4 /* KotlinSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		950F19792BD817DB0016E0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					950F19802BD817DB0016E0E4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 950F197C2BD817DB0016E0E4 /* Build configuration list for PBXProject "SDKSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 950F19782BD817DB0016E0E4;
+			productRefGroup = 950F19822BD817DB0016E0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				950F19802BD817DB0016E0E4 /* KotlinSample */,
+				18B0EECB2BF26DC800852B87 /* SKIESample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B0EED72BF26DC800852B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B0EED82BF26DC800852B87 /* Preview Assets.xcassets in Resources */,
+				18B0EED92BF26DC800852B87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950F197F2BD817DB0016E0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950F198C2BD817DC0016E0E4 /* Preview Assets.xcassets in Resources */,
+				950F19892BD817DC0016E0E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B0EECC2BF26DC800852B87 /* Embed Kotlin Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Kotlin Framework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/..\"\n./gradlew :kmp:skie:embedAndSignAppleFrameworkForXcode\n";
+		};
+		950F19922BD818690016E0E4 /* Embed Kotlin Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Kotlin Framework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/..\"\n./gradlew :kmp:regular:embedAndSignAppleFrameworkForXcode\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B0EECD2BF26DC800852B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B0EEE22BF26E3600852B87 /* SKIE_SealedView.swift in Sources */,
+				18B0EECF2BF26DC800852B87 /* SKIE_DefaultArgsView.swift in Sources */,
+				18B0EEEE2BF270CA00852B87 /* SKIE_SuspendsView.swift in Sources */,
+				18B0EEE62BF26F8B00852B87 /* SKIE_FlowsView.swift in Sources */,
+				18B0EED22BF26DC800852B87 /* ContentView.swift in Sources */,
+				18B0EED42BF26DC800852B87 /* SDKSampleApp.swift in Sources */,
+				18B0EEF32BF2850800852B87 /* withCleanup.swift in Sources */,
+				18B0EED52BF26DC800852B87 /* SKIE_GenericsView.swift in Sources */,
+				18B0EEE92BF26FF300852B87 /* SKIE_EnumsView.swift in Sources */,
+				18EAFA202BFB8DCA008038BC /* Sendables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950F197D2BD817DB0016E0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B0EEA02BEBEC5C00852B87 /* Kotlin_FlowsView.swift in Sources */,
+				18B0EE982BEBEC2A00852B87 /* Kotlin_SealedView.swift in Sources */,
+				18B0EE9A2BEBEC4600852B87 /* Kotlin_EnumsView.swift in Sources */,
+				950F19872BD817DB0016E0E4 /* ContentView.swift in Sources */,
+				18B0EEA22BEBEC6900852B87 /* Kotlin_SuspendsView.swift in Sources */,
+				18B0EEF22BF2850600852B87 /* withCleanup.swift in Sources */,
+				950F19852BD817DB0016E0E4 /* SDKSampleApp.swift in Sources */,
+				18B0EEF52BF3ED9F00852B87 /* Kotlin_GenericsView.swift in Sources */,
+				180914B12BF7854A0013A232 /* Kotlin_DefaultArgsView.swift in Sources */,
+				18EAFA1F2BFB8DCA008038BC /* Sendables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18B0EEDB2BF26DC800852B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Util/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../kmp/skie/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-actor-data-race-checks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.SKIESample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B0EEDC2BF26DC800852B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Util/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../kmp/skie/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-actor-data-race-checks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.SKIESample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		950F198D2BD817DC0016E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		950F198E2BD817DC0016E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		950F19902BD817DC0016E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Util/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../kmp/regular/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-actor-data-race-checks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.KotlinSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		950F19912BD817DC0016E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Util/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../kmp/regular/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-actor-data-race-checks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.KotlinSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B0EEDA2BF26DC800852B87 /* Build configuration list for PBXNativeTarget "SKIESample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B0EEDB2BF26DC800852B87 /* Debug */,
+				18B0EEDC2BF26DC800852B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		950F197C2BD817DB0016E0E4 /* Build configuration list for PBXProject "SDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950F198D2BD817DC0016E0E4 /* Debug */,
+				950F198E2BD817DC0016E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		950F198F2BD817DC0016E0E4 /* Build configuration list for PBXNativeTarget "KotlinSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950F19902BD817DC0016E0E4 /* Debug */,
+				950F19912BD817DC0016E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 950F19792BD817DB0016E0E4 /* Project object */;
+}

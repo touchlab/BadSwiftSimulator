@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/buildSrc" name="buildSrc">
+                <projects>
+                  <project path="$PROJECT_DIR$/buildSrc" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/good" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/kmp" />
+            <option value="$PROJECT_DIR$/kmp/regular" />
+            <option value="$PROJECT_DIR$/kmp/skie" />
+            <option value="$PROJECT_DIR$/sdk" />
+            <option value="$PROJECT_DIR$/sdk/bad" />
+            <option value="$PROJECT_DIR$/sdk/bad/defaultArgs" />
+            <option value="$PROJECT_DIR$/sdk/bad/enums" />
+            <option value="$PROJECT_DIR$/sdk/bad/flows" />
+            <option value="$PROJECT_DIR$/sdk/bad/generics" />
+            <option value="$PROJECT_DIR$/sdk/bad/sealed" />
+            <option value="$PROJECT_DIR$/sdk/bad/suspends" />
+            <option value="$PROJECT_DIR$/sdk/good" />
+            <option value="$PROJECT_DIR$/sdk/good/defaultArgs" />
+            <option value="$PROJECT_DIR$/sdk/good/enums" />
+            <option value="$PROJECT_DIR$/sdk/good/flows" />
+            <option value="$PROJECT_DIR$/sdk/good/generics" />
+            <option value="$PROJECT_DIR$/sdk/good/sealed" />
+            <option value="$PROJECT_DIR$/sdk/good/suspends" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
