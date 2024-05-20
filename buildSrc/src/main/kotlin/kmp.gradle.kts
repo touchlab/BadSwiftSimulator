@@ -24,6 +24,8 @@ tasks.withType<KotlinCompile> {
 }
 
 kotlin {
+    jvmToolchain(17)
+
     androidTarget()
     listOf(
         iosX64(),

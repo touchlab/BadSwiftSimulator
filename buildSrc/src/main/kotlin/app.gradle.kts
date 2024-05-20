@@ -3,6 +3,10 @@ plugins {
     kotlin("android")
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
 android {
     namespace = "co.touchlab.codelab"
     compileSdk = 34
