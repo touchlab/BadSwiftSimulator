@@ -41,7 +41,7 @@ If you wish to try out that part too,
 make sure you have Xcode 15.1 or newer installed.
 Then use JetBrains' [kdoctor](https://github.com/Kotlin/kdoctor) to ensure you have a functional KMP installation.
 
-Otherwise, open `settings.gradle.kts` and comment out the last two modules, `:kmp:good` and `:kmp:skie`. 
+Otherwise, open `settings.gradle.kts` and comment out the last two modules, `:kmp:regular` and `:kmp:skie`. 
 
 ## Getting Started
 
