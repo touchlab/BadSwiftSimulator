@@ -1,1 +1,1 @@
-/Users/tadeaskriz/Developer/Sources/Touchlab/codelab_skie/sdk/good/enums/src/main/kotlin/co/touchlab/sdk/Enums.kt
+../../../../../../../../sdk/good/enums/src/main/kotlin/co/touchlab/sdk/Enums.kt

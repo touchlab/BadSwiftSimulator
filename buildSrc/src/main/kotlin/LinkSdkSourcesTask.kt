@@ -19,7 +19,7 @@ abstract class LinkSdkSourcesTask @Inject constructor(
             "Enums.kt" to "enums",
             "Flows.kt" to "flows",
             "Generics.kt" to "generics",
-            "SealedClasses.kt" to "sealedClasses",
+            "Sealed.kt" to "sealed",
             "Suspends.kt" to "suspends",
         )
 
@@ -28,8 +28,15 @@ abstract class LinkSdkSourcesTask @Inject constructor(
         }
 
         files.forEach { (file, module) ->
-            execOperations.exec {
-                commandLine("ln", "-s", "$rootDir/sdk/good/$module/src/main/kotlin/co/touchlab/sdk/$file", "$projectDir/src/commonMain/kotlin/co/touchlab/sdk/$file")
+            val sourceFile = rootDir.resolve("sdk/good/$module/src/main/kotlin/co/touchlab/sdk").resolve(file)
+            val targetParentDir = projectDir.resolve("src/commonMain/kotlin/co/touchlab/sdk")
+            // Don't try to overwrite anything
+            if (!targetParentDir.resolve(file).exists()) {
+                execOperations.exec {
+                    rootDir.relativeTo(projectDir)
+                    commandLine("ln", "-s", sourceFile.relativeTo(targetParentDir), file)
+                    workingDir = targetParentDir
+                }
             }
         }
     }
