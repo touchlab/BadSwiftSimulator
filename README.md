@@ -32,7 +32,9 @@ To get ready for the Codelab,
 go through the list below,
 and make sure your computer is set up correctly.
 
-- Latest stable Android Studio, or IntelliJ IDEA
+- Latest stable Android Studio, or IntelliJ IDEA (with Android plugin enabled)
+- Fairly latest Android SDK installation
+- Android emulator (AVD), or an Android phone with USB debugging enabled (don't forget to bring a cable)
 - A JVM capable of running Kotlin 1.9.23 and Gradle 8.4 or newer (JVM 11 or 17 is preferred)
 
 _Bad Swift Simulator_ is mostly a regular Android project,
@@ -55,6 +57,10 @@ git clone https://github.com/touchlab/BadSwiftSimulator
 Once cloned,
 open the project in your IDE of choice (as long as it's either Android Studio, or IntelliJ IDEA).
 Wait for Gradle to complete sync and run the `:app:good` on an emulator.
+
+> [!IMPORTANT]
+> Make sure to run the `:app:good` on an emulator as soon as possible.
+> Although the project is small, it still needs to download Android and KMP dependencies.
 
 > [!TIP]
 > If you wish to try the iOS side as well,
